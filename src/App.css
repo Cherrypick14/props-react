@@ -1,0 +1,31 @@
+body{
+    background:linear-gradient(to right, #967DA1, #CBCE12);
+}
+.App{
+    background:tan;
+    height: 400px;
+    width:500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin:0 auto;
+}
+.header{
+    flex:3;
+    background: teal;
+
+}
+.content{
+    flex: 9;
+    background:rgb(112, 96, 124);
+}
+.aboutbio{
+    margin-top:40px;
+}
+.formbio{
+     /*  */
+    /* margin-top:15px;
+     background:teal;
+     display: flex;
+     flex-direction: column; */
+}

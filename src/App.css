@@ -4,10 +4,10 @@ body{
 .App{
     background:tan;
     height: 400px;
+    padding-top:20px;
     width:500px;
     display: flex;
     flex-direction: column;
-    text-align: center;
     margin:0 auto;
 }
 .header{
@@ -22,10 +22,22 @@ body{
 .aboutbio{
     margin-top:40px;
 }
-.formbio{
-     /*  */
-    /* margin-top:15px;
-     background:teal;
-     display: flex;
-     flex-direction: column; */
+.formtextarea{
+    border-radius:10px;
+    margin-top: 15px;
+    margin-left:10px;
+}
+.formname{
+    margin-right:5px;
+}
+.formname,.formmail{
+    padding:10px;
+}
+.formname,.formmail,.formtextarea:focus{
+    outline: none;
+}
+.social-icons{
+     text-align: center;
+    padding:10px; 
+
 }
